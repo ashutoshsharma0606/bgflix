@@ -1,0 +1,321 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BGFLIX - AI Background Remover</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+
+<div class="logo">
+BGFLIX
+</div>
+
+<div class="nav-buttons">
+<button class="nav-btn">
+Sign In
+</button>
+</div>
+
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="overlay"></div>
+
+<div class="hero-content">
+
+<h1>
+Remove Backgrounds With AI In Seconds
+</h1>
+
+<p>
+Upload any image and get a transparent background instantly with powerful AI.
+</p>
+
+<a href="#upload-section" class="hero-btn">
+Try It Now
+</a>
+
+</div>
+
+</section>
+
+<!-- UPLOADER -->
+
+<section id="upload-section" class="upload-section">
+
+<div class="container">
+
+<h2>
+AI Background Remover
+</h2>
+
+<p class="subtitle">
+Upload an image and let AI remove the background automatically.
+</p>
+
+<div class="upload-card">
+
+<input
+type="file"
+id="fileInput"
+accept="image/*"
+hidden
+>
+
+<div
+class="drop-zone"
+id="dropZone"
+>
+
+<div class="upload-icon">
+📸
+</div>
+
+<h3>
+Drag & Drop Image
+</h3>
+
+<p>
+or click below
+</p>
+
+<button
+id="chooseBtn"
+class="choose-btn"
+>
+Choose Image
+</button>
+
+</div>
+
+</div>
+
+<!-- PREVIEW -->
+
+<div class="preview-wrapper">
+
+<div class="preview-box">
+
+<h3>
+Original
+</h3>
+
+<img
+id="originalPreview"
+class="preview-image"
+>
+
+</div>
+
+<div class="preview-box">
+
+<h3>
+Result
+</h3>
+
+<img
+id="resultPreview"
+class="preview-image"
+>
+
+</div>
+
+</div>
+
+<!-- ACTIONS -->
+
+<div class="actions">
+
+<button
+id="removeBtn"
+class="remove-btn"
+>
+Remove Background
+</button>
+
+<a
+id="downloadBtn"
+class="download-btn"
+download="bgflix-result.png"
+>
+Download PNG
+</a>
+
+</div>
+
+<!-- LOADER -->
+
+<div
+id="loader"
+class="loader hidden"
+>
+
+<div class="spinner"></div>
+
+<p>
+Removing Background...
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FEATURES -->
+
+<section class="features">
+
+<div class="container">
+
+<h2>
+Why BGFLIX?
+</h2>
+
+<div class="feature-grid">
+
+<div class="feature-card">
+
+<h3>
+⚡ Fast
+</h3>
+
+<p>
+Background removed in seconds.
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h3>
+🎯 Accurate
+</h3>
+
+<p>
+Advanced AI detects subjects precisely.
+</p>
+
+</div>
+
+<div class="feature-card">
+
+<h3>
+📥 Download
+</h3>
+
+<p>
+Get transparent PNG instantly.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- PRICING -->
+
+<section class="pricing">
+
+<div class="container">
+
+<h2>
+Pricing
+</h2>
+
+<div class="pricing-grid">
+
+<div class="price-card">
+
+<h3>
+Free
+</h3>
+
+<div class="price">
+$0
+</div>
+
+<p>
+Basic usage
+</p>
+
+</div>
+
+<div class="price-card featured">
+
+<h3>
+Pro
+</h3>
+
+<div class="price">
+$9
+</div>
+
+<p>
+Unlimited images
+</p>
+
+</div>
+
+<div class="price-card">
+
+<h3>
+Business
+</h3>
+
+<div class="price">
+$29
+</div>
+
+<p>
+Commercial usage
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+
+<h3>
+BGFLIX
+</h3>
+
+<p>
+AI Background Remover
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+```
