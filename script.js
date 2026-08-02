@@ -1,10 +1,9 @@
-```javascript id="k7q2mz"
+
 const fileInput = document.getElementById("fileInput");
 const chooseBtn = document.getElementById("chooseBtn");
 const dropZone = document.getElementById("dropZone");
 
 const removeBtn = document.getElementById("removeBtn");
-
 const originalPreview =
 document.getElementById("originalPreview");
 
@@ -188,4 +187,4 @@ removeBtn.addEventListener("click", async () => {
   }
 
 });
-```
+
