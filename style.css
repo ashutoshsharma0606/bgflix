@@ -34,6 +34,17 @@ font-size:2rem;
 font-weight:800;
 color:#e50914;
 letter-spacing:2px;
+display:flex;
+flex-direction:column;
+line-height:1;
+}
+
+.logo-sub{
+font-size:.7rem;
+color:#ccc;
+font-weight:500;
+letter-spacing:1px;
+margin-top:4px;
 }
 
 .nav-btn{
@@ -431,4 +442,15 @@ transition:.3s;
 
 .footer-links a:hover{
 color:#e50914;
+}footer p{
+color:#aaa;
+margin:8px 0;
+}
+
+.logo-sub{
+font-size:.7rem;
+color:#ccc;
+font-weight:500;
+letter-spacing:1px;
+margin-top:4px;
 }
