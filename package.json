@@ -4,6 +4,7 @@
   "description": "Netflix Style AI Background Remover",
   "main": "index.js",
   "dependencies": {
+    "@imgly/background-removal": "^1.7.0",
     "axios": "^1.7.2",
     "form-data": "^4.0.0"
   }
