@@ -1,4 +1,4 @@
-```css id="f6x4rw"
+css id="f6x4rw"
 *{
 margin:0;
 padding:0;
@@ -415,4 +415,20 @@ text-align:center;
 }
 
 }
-```
+.footer-links{
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.footer-links a{
+color:#ccc;
+text-decoration:none;
+transition:.3s;
+}
+
+.footer-links a:hover{
+color:#e50914;
+}
