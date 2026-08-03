@@ -454,3 +454,9 @@ font-weight:500;
 letter-spacing:1px;
 margin-top:4px;
 }
+.logo-img{
+height:100px;
+width:auto;
+display:block;
+border:2px solid red;
+}
